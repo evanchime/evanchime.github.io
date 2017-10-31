@@ -1,2 +1,2 @@
 # evanchime.github.io
-My personal profile page
+My personal profile site
