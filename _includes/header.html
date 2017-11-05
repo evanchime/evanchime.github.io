@@ -1,0 +1,19 @@
+<div id="particles-js">
+  <div class="content">
+      <div class="my-profile-pic-container">
+          <img src="{{ "/assets/img/myProfilepic.JPG" | prepend: site.baseurl }}" class="my-profile-pic animated bounceInDown " alt="my profile picture">
+      </div>
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="icons-header">
+        <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://linkedin.com/in/{{site.linkedin_username}}"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
+      </div>
+      <a class="link" href="#about" data-scroll>About Me</a>
+      <a class="link" href="#projects" data-scroll>Projects</a>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
